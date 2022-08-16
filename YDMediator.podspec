@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangyuandong/YDMediator'
+  s.homepage         = 'https://github.com/chong2vv/YDMediator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangyuandong' => 'chong2vv@163.com' }
-  s.source           = { :git => 'https://github.com/wangyuandong/YDMediator.git', :tag => s.version.to_s }
+  s.author           = { 'wangyuandong' => 'chong2vv@gmail.com' }
+  s.source           = { :git => 'https://github.com/chong2vv/YDMediator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
