@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "YDMediatorConfig.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface YDApp : NSObject
 
+@property (nonatomic, strong)UINavigationController *navigationController;
+@property (nonatomic, strong)UIViewController *viewController;
+
+
+- (void)showViewController:(UIViewController *)vc showType:(EYDMediatorShowType)showType;
+
+- (void)showViewController:(UIViewController *)vc showType:(EYDMediatorShowType)showType animated:(BOOL)animated completion:(void (^)(void))completion;
+
 @end
 
-NS_ASSUME_NONNULL_END
