@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		157DCF8E28AB853D00D6986A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 157DCF8C28AB853D00D6986A /* .gitkeep */; };
-		157DCF9128AB857800D6986A /* YDApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF9028AB857800D6986A /* YDApp.m */; };
-		157DCF9528AB879700D6986A /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF9428AB879700D6986A /* CTMediator.m */; };
-		157DCF9928AB899C00D6986A /* YDMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DCF9828AB899C00D6986A /* YDMediator.m */; };
+		2FC4C1C56963000B9C9FF0CC /* libPods-YDMediator_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43427B54C4512605700FAEC3 /* libPods-YDMediator_Tests.a */; };
+		37FEAECDC05876ABD65D6F2A /* libPods-YDMediator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D89284330B12837F94F8D9 /* libPods-YDMediator_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -26,8 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A6718FA35761634A8EA5C920 /* Pods_YDMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33AB99182EA473F3A0D8EFA /* Pods_YDMediator_Tests.framework */; };
-		B3F1A000C7289C290F71DCA8 /* Pods_YDMediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08598B8208A9282D3008147E /* Pods_YDMediator_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08598B8208A9282D3008147E /* Pods_YDMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F94BEEC0FC0D84BE69D612A /* Pods-YDMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDMediator_Tests/Pods-YDMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		157DCF8A28AB853D00D6986A /* YDMediatorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMediatorConfig.h; sourceTree = "<group>"; };
-		157DCF8C28AB853D00D6986A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		157DCF8F28AB857800D6986A /* YDApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDApp.h; sourceTree = "<group>"; };
 		157DCF9028AB857800D6986A /* YDApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDApp.m; sourceTree = "<group>"; };
 		157DCF9328AB879700D6986A /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
@@ -52,6 +46,7 @@
 		157DCF9728AB899C00D6986A /* YDMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMediator.h; sourceTree = "<group>"; };
 		157DCF9828AB899C00D6986A /* YDMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMediator.m; sourceTree = "<group>"; };
 		26F98CF2F62EFF7F72148549 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43427B54C4512605700FAEC3 /* libPods-YDMediator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDMediator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E06CFDE3B53BD06D16585B /* YDMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDMediator.podspec; path = ../YDMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YDMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,9 +70,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7569DAA6CCC1F2F4FE6D91E /* Pods-YDMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDMediator_Tests/Pods-YDMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D89284330B12837F94F8D9 /* libPods-YDMediator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDMediator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20C02AA7F0593F361D2589E /* Pods-YDMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-YDMediator_Example/Pods-YDMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9AD183C6013D4100FA6F6C4 /* Pods-YDMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDMediator_Example/Pods-YDMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E33AB99182EA473F3A0D8EFA /* Pods_YDMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E360A85F2FB701CBABC64C77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +84,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B3F1A000C7289C290F71DCA8 /* Pods_YDMediator_Example.framework in Frameworks */,
+				37FEAECDC05876ABD65D6F2A /* libPods-YDMediator_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +95,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A6718FA35761634A8EA5C920 /* Pods_YDMediator_Tests.framework in Frameworks */,
+				2FC4C1C56963000B9C9FF0CC /* libPods-YDMediator_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +129,6 @@
 		157DCF8B28AB853D00D6986A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				157DCF8C28AB853D00D6986A /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -195,8 +189,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				08598B8208A9282D3008147E /* Pods_YDMediator_Example.framework */,
-				E33AB99182EA473F3A0D8EFA /* Pods_YDMediator_Tests.framework */,
+				B5D89284330B12837F94F8D9 /* libPods-YDMediator_Example.a */,
+				43427B54C4512605700FAEC3 /* libPods-YDMediator_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -268,7 +262,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D3BF117B710951A12C37D95D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,7 +280,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				63C7EE03C8CC5B457DF5E477 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -341,7 +333,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				157DCF8E28AB853D00D6986A /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -358,24 +349,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		63C7EE03C8CC5B457DF5E477 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YDMediator_Tests/Pods-YDMediator_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDMediator_Tests/Pods-YDMediator_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		78660BC046771066BEFE2239 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,24 +369,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3BF117B710951A12C37D95D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YDMediator_Example/Pods-YDMediator_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YDMediator/YDMediator.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDMediator.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDMediator_Example/Pods-YDMediator_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FBBB32861DB3087806EEDF48 /* [CP] Check Pods Manifest.lock */ = {
@@ -445,9 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157DCF9128AB857800D6986A /* YDApp.m in Sources */,
-				157DCF9928AB899C00D6986A /* YDMediator.m in Sources */,
-				157DCF9528AB879700D6986A /* CTMediator.m in Sources */,
 				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

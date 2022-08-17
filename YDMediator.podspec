@@ -32,4 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YDMediator/Classes/**/*'
   s.dependency 'YDClearCacheService'
+  s.dependency 'YDAvoidCrashKit'
+  s.requires_arc = true
+  s.frameworks = "Foundation", "UIKit"
 end

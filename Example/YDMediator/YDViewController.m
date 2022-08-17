@@ -8,6 +8,8 @@
 
 #import "YDViewController.h"
 
+#import <YDMediator/YDMediator.h>
+
 @interface YDViewController ()
 
 @end
