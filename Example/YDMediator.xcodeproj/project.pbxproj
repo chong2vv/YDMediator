@@ -106,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				157DCF8828AB853D00D6986A /* Classes */,
-				157DCF8B28AB853D00D6986A /* Assets */,
 			);
 			name = YDMediator;
 			path = ../YDMediator;
@@ -115,7 +114,6 @@
 		157DCF8828AB853D00D6986A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				157DCF9628AB87AA00D6986A /* YDCategories */,
 				157DCF9228AB876300D6986A /* CTMediator */,
 				157DCF8A28AB853D00D6986A /* YDMediatorConfig.h */,
 				157DCF8F28AB857800D6986A /* YDApp.h */,
@@ -126,13 +124,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		157DCF8B28AB853D00D6986A /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		157DCF9228AB876300D6986A /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,13 +131,6 @@
 				157DCF9428AB879700D6986A /* CTMediator.m */,
 			);
 			path = CTMediator;
-			sourceTree = "<group>";
-		};
-		157DCF9628AB87AA00D6986A /* YDCategories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YDCategories;
 			sourceTree = "<group>";
 		};
 		5148EBAB018DBB2BC2ED5C6E /* Pods */ = {
